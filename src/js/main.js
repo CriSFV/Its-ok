@@ -8,6 +8,7 @@ const text = document.querySelector('.js_paragraph');
 
 function handleShowImg() {
   img.setAttribute('src', './assets/images/meme1.jpg');
+  text.innerHTML = '';
 }
 
 title.addEventListener('click', handleShowImg);
