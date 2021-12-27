@@ -1,0 +1,22 @@
+body {
+  padding: 2rem;
+  height: 100vh;
+  background-color: $color-bg;
+  font-family: $font-main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  cursor: pointer;
+}
+.title {
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+}
+.text {
+  font-size: 2em;
+}
