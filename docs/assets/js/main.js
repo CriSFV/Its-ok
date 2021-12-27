@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";console.log(">> Ready :)");const img=document.querySelector(".js_img"),title=document.querySelector(".js_title"),text=document.querySelector(".js_paragraph");function handleShowImg(){img.setAttribute("src","./assets/images/meme1.jpg"),text.innerHTML="I'm not going to cry"}function handleChangeImg(){img.setAttribute("src","./assets/images/meme2.jpg")}title.addEventListener("click",handleShowImg),img.addEventListener("click",handleChangeImg);
