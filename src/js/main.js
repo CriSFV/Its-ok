@@ -8,13 +8,13 @@ const text = document.querySelector('.js_paragraph');
 
 function handleShowImg() {
   img.setAttribute('src', './assets/images/meme1.jpg');
-  text.innerHTML = "I'm not going to cry";
 }
 
 title.addEventListener('click', handleShowImg);
 
 function handleChangeImg() {
-  img.setAttribute('src', './assets/images/meme2.jpg');
+  text.innerHTML = "I'm not going to cry...";
+  img.setAttribute('src', './assets/images/notcry.jpg');
 }
 
 img.addEventListener('click', handleChangeImg);

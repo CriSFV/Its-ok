@@ -1,22 +1,27 @@
 body {
   padding: 2rem;
   height: 100vh;
-  background-color: $color-bg;
+  // background-color: $color-bg;
   font-family: $font-main;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .img {
   cursor: pointer;
+  height: 300px;
+  width: 300px;
+  border: transparent;
 }
 .title {
   cursor: pointer;
   &:hover {
-    color: red;
+    color: blue;
   }
 }
 .text {
-  font-size: 2em;
+  font-size: 1.5em;
+  padding: 1em;
 }

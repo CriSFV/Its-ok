@@ -12,22 +12,26 @@
 body {
   padding: 2rem;
   height: 100vh;
-  background-color: #f3f4f5;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .img {
-  cursor: pointer; }
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  border: transparent; }
 
 .title {
   cursor: pointer; }
   .title:hover {
-    color: red; }
+    color: blue; }
 
 .text {
-  font-size: 2em; }
+  font-size: 1.5em;
+  padding: 1em; }
 
 .page__footer {
   position: fixed;
